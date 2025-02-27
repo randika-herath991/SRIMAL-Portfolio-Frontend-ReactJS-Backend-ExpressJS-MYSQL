@@ -5,7 +5,7 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Srimal, a software engineer with a passion for the coding. 
+        I’m Srimal, a software engineer with a passion for the coding.
         I specialize in back-end and front-end development, helping
         my clients build real-world projects and master modern web technologies. I
         Outside of coding, I enjoy continuous learning and

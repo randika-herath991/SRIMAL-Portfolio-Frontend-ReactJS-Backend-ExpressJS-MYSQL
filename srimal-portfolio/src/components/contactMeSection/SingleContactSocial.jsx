@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const SingleContactSocial = ({ Icon, link }) => {
   return (
     <div className="text-2xl h-12 w-12 border border-orange text-orange rounded-full p-3 flex items-center justify-center ">
@@ -6,6 +8,11 @@ const SingleContactSocial = ({ Icon, link }) => {
       </a>
     </div>
   );
+};
+
+SingleContactSocial.propTypes = {
+  Icon: PropTypes.elementType.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default SingleContactSocial;

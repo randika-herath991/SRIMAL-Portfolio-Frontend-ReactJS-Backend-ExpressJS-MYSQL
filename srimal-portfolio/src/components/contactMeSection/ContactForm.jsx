@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -27,7 +27,7 @@ const ContactForm = () => {
 
     axios
       .post("http://localhost:5000/submit-form", formData)
-      .then((response) => {
+      .then(() => {
         setName("");
         setEmail("");
         setMessage("");

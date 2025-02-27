@@ -18,7 +18,7 @@ const experiences = [
   {
     job: "Assocaite QA Engineer",
     company: "X-ONT Software Pvt Ltd",
-    date: "2023 June - 2023 November",
+    date: "2023 June - 2023 Nov",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
@@ -29,7 +29,7 @@ const experiences = [
   {
     job: "Associate Software Engineer",
     company: "Inspiring Future Solutions Pvt Ltd",
-    date: "2023 December - Present",
+    date: "2023 Dec - Present",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
